@@ -1,0 +1,11 @@
+flask
+requests
+beautifulsoup4
+rank-bm25
+sentence-transformers
+scikit-learn
+transformers
+torch
+pandas
+numpy
+joblib
