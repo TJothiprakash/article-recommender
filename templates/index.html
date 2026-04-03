@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Article Recommender</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f5f7fa; color: #333; }
+    .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    h1 { font-size: 1.8rem; margin-bottom: 6px; color: #2d3748; }
+    .subtitle { color: #718096; margin-bottom: 32px; font-size: 0.95rem; }
+
+    .card { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin-bottom: 24px; }
+
+    .tabs { display: flex; gap: 12px; margin-bottom: 20px; }
+    .tab-btn { padding: 8px 18px; border-radius: 20px; border: 2px solid #e2e8f0; background: white; cursor: pointer; font-size: 0.9rem; transition: all 0.2s; }
+    .tab-btn.active { background: #667eea; color: white; border-color: #667eea; }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    input[type="text"], select {
+      width: 100%; padding: 12px 16px; border: 2px solid #e2e8f0;
+      border-radius: 8px; font-size: 1rem; outline: none; transition: border 0.2s;
+    }
+    input[type="text"]:focus, select:focus { border-color: #667eea; }
+
+    .btn { background: #667eea; color: white; border: none; padding: 12px 28px;
+      border-radius: 8px; font-size: 1rem; cursor: pointer; margin-top: 12px; transition: background 0.2s; }
+    .btn:hover { background: #5a67d8; }
+
+    .error { color: #e53e3e; background: #fff5f5; border: 1px solid #fed7d7; padding: 10px 14px; border-radius: 8px; margin-bottom: 16px; }
+
+    .result-header { margin-bottom: 16px; }
+    .mood-badge { display: inline-block; background: #ebf4ff; color: #3182ce;
+      padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-left: 8px; }
+
+    .article-card { border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; margin-bottom: 12px; transition: box-shadow 0.2s; }
+    .article-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .article-title { font-weight: 600; font-size: 1rem; color: #2d3748; margin-bottom: 6px; }
+    .article-desc { font-size: 0.88rem; color: #718096; margin-bottom: 10px; line-height: 1.5; }
+    .article-meta { display: flex; gap: 8px; align-items: center; }
+    .article-tag { font-size: 0.78rem; background: #f7fafc; border: 1px solid #e2e8f0; padding: 2px 8px; border-radius: 10px; color: #4a5568; }
+    .article-link { font-size: 0.85rem; color: #667eea; text-decoration: none; margin-left: auto; }
+    .article-link:hover { text-decoration: underline; }
+
+    .no-articles { color: #a0aec0; font-style: italic; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Mood Article Recommender</h1>
+  <p class="subtitle">Tell us how you feel — we'll find the right articles for you.</p>
+
+  <div class="card">
+    {% if error %}
+      <div class="error">{{ error }}</div>
+    {% endif %}
+
+    <div class="tabs">
+      {% if input_type == 'dropdown' %}
+        <button class="tab-btn" onclick="switchTab('text', event)">Free text</button>
+        <button class="tab-btn active" onclick="switchTab('dropdown', event)">Pick a mood</button>
+      {% else %}
+        <button class="tab-btn active" onclick="switchTab('text', event)">Free text</button>
+        <button class="tab-btn" onclick="switchTab('dropdown', event)">Pick a mood</button>
+      {% endif %}
+    </div>
+
+    <form method="POST" action="/recommend">
+
+      {% if input_type == 'dropdown' %}
+        <div class="tab-content" id="tab-text">
+      {% else %}
+        <div class="tab-content active" id="tab-text">
+      {% endif %}
+        <input type="hidden" name="input_type" value="text" />
+        <input type="text" name="mood_text" placeholder="e.g. I feel anxious about everything today..."
+          value="{% if input_type == 'text' %}{{ query_text }}{% endif %}" />
+        <button class="btn" type="submit">Get articles</button>
+      </div>
+
+      {% if input_type == 'dropdown' %}
+        <div class="tab-content active" id="tab-dropdown">
+      {% else %}
+        <div class="tab-content" id="tab-dropdown">
+      {% endif %}
+        <input type="hidden" name="input_type" value="dropdown" />
+        <select name="mood_dropdown">
+          <option value="">-- Select your mood --</option>
+          {% for mood in moods %}
+            {% if detected_mood == mood and input_type == 'dropdown' %}
+              <option value="{{ mood }}" selected>{{ mood | capitalize }}</option>
+            {% else %}
+              <option value="{{ mood }}">{{ mood | capitalize }}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+        <button class="btn" type="submit">Get articles</button>
+      </div>
+
+    </form>
+  </div>
+
+  {% if detected_mood %}
+  <div class="card">
+    <div class="result-header">
+      <span style="font-weight:600;">Recommended for you</span>
+      <span class="mood-badge">{{ detected_mood }}</span>
+    </div>
+
+    {% if articles %}
+      {% for article in articles %}
+      <div class="article-card">
+        <div class="article-title">{{ article.title }}</div>
+        {% if article.description %}
+          <div class="article-desc">
+            {% if article.description | length > 180 %}
+              {{ article.description[:180] }}...
+            {% else %}
+              {{ article.description }}
+            {% endif %}
+          </div>
+        {% endif %}
+        <div class="article-meta">
+          {% if article.category %}
+            <span class="article-tag">{{ article.category }}</span>
+          {% endif %}
+          {% if article.link %}
+            <a class="article-link" href="{{ article.link }}" target="_blank">Read article &rarr;</a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    {% else %}
+      <p class="no-articles">No articles found for this mood yet. Try a different one!</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+</div>
+
+<script>
+  function switchTab(tab, event) {
+    document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
+    document.querySelectorAll('.tab-content').forEach(function(c) { c.classList.remove('active'); });
+    document.getElementById('tab-' + tab).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+</body>
+</html>
