@@ -25,25 +25,25 @@
       "source": "devto"
     },
     {
-      "title": "Embracing Change: Applying Stoic Philosophy in Software Architecture",
-      "description": "Introduction   At first glance, ancient Stoic philosophy and modern software architecture...",
-      "link": "https://dev.to/petermilovcik/embracing-change-applying-stoic-philosophy-in-software-architecture-4jfp",
+      "title": "The Day I Started Asking 'Why' Again",
+      "description": "The last few months? One big blur. Wake up (late). Guzzle some coffee. Push code. Fix one thing,...",
+      "link": "https://dev.to/dhaval_agrvat_6e65394a83/the-day-i-started-asking-why-again-13eg",
       "category": "stoicism",
       "mood": "angry",
       "source": "devto"
     },
     {
-      "title": "Rome's Last Citizen by Rob Goodman and Jimmy Sonni",
-      "description": "Who was it? It depends. If we were looking for a technically correct answer, it w...",
-      "link": "https://dev.to/sandordargo/rome-s-last-citizen-by-rob-goodman-and-jimmy-sonni-3970",
+      "title": "How Dangerous Code Assumptions Lead to Exploits",
+      "description": "Most systems don't fail in chaos. They fail in confidence. The input you skipped validating. The...",
+      "link": "https://dev.to/tonystpierre/how-dangerous-code-assumptions-lead-to-exploits-ohe",
       "category": "stoicism",
       "mood": "angry",
       "source": "devto"
     },
     {
-      "title": "An introduction to Stoicism: Part One",
-      "description": "Introducing Stoicism and negative visualization",
-      "link": "https://dev.to/damcosset/an-introduction-to-stoicism-part-one",
+      "title": "Why Mastering the Basics Is the Real Shortcut in Software Development",
+      "description": "We don't move forward by skipping the basics. We move forward because we've mastered them.  Today's...",
+      "link": "https://dev.to/tonystpierre/why-mastering-the-basics-is-the-real-shortcut-in-software-development-3a87",
       "category": "stoicism",
       "mood": "angry",
       "source": "devto"
@@ -187,9 +187,17 @@
       "source": "devto"
     },
     {
-      "title": "What is the Joy of Programming?",
-      "description": "Ok so a while ago a former student asked me why I decided to become a programmer. I think what she me...",
-      "link": "https://dev.to/austinhardaway/what-is-the-joy-of-programming-3j92",
+      "title": "Church encoding in the concatenative language Joy",
+      "description": "I've previously written about Church encoding in the Joy programming language. The article focused on...",
+      "link": "https://dev.to/palm86/church-encoding-in-the-concatenative-language-joy-3nd8",
+      "category": "joy",
+      "mood": "happy",
+      "source": "devto"
+    },
+    {
+      "title": "LiveJoy with Phoenix LiveView",
+      "description": "In a previous post, I've introduced an interpreter for the Joy programming language implemented in El...",
+      "link": "https://dev.to/palm86/livejoy-with-phoenix-liveview-3cb1",
       "category": "joy",
       "mood": "happy",
       "source": "devto"
@@ -211,6 +219,14 @@
       "source": "devto"
     },
     {
+      "title": "Is there a manual task in your life that you have automated which now saves you time?",
+      "description": "What is a one time investment you have made that has proven to be useful to you time and again?",
+      "link": "https://dev.to/blender/is-there-a-manual-task-in-your-life-that-you-have-automated-which-now-saves-you-time-j89",
+      "category": "thanksgiving",
+      "mood": "happy",
+      "source": "devto"
+    },
+    {
       "title": "Costco Outage - Lessons that needs to be learned",
       "description": "Last year's Thanksgiving and Black Friday for Costco didn't cause this much trouble. But this year, C...",
       "link": "https://dev.to/qainsights/costco-outage-lessons-that-needs-to-be-learned-449j",
@@ -227,20 +243,28 @@
       "source": "devto"
     },
     {
-      "title": "What I'm Grateful for as a Developer",
-      "description": "In the spirit of American Thanksgiving, I wanted to make a specific list of what I am thankful for in my journey as a developer. ",
-      "link": "https://dev.to/lkopacz/what-im-grateful-for-as-a-developer--1517",
-      "category": "thanksgiving",
-      "mood": "happy",
-      "source": "devto"
-    },
-    {
       "title": "Celebration",
       "description": "Celebration or Celebrations may refer to:",
       "link": "https://en.wikipedia.org/wiki/Celebration",
       "category": "celebration",
       "mood": "happy",
       "source": "wikipedia"
+    },
+    {
+      "title": "Celebrating 1000 Views: A Journey Through Open-Source Technology",
+      "description": "Hitting the 1000 views mark on my blog feels like a significant milestone. It’s a moment to reflect...",
+      "link": "https://dev.to/kpcofgs/celebrating-1000-views-a-journey-through-open-source-technology-ja5",
+      "category": "celebration",
+      "mood": "happy",
+      "source": "devto"
+    },
+    {
+      "title": "CoderDave: 1000 Subscribers thanks to YOU!",
+      "description": "WE MADE IT!  Thanks to all of you, CoderDave has reached 1,000 subscribers on YouTube!    It's crazy...",
+      "link": "https://dev.to/n3wt0n/coderdave-1000-subscribers-thanks-to-you-19ch",
+      "category": "celebration",
+      "mood": "happy",
+      "source": "devto"
     },
     {
       "title": "A family of 1000+ members",
@@ -285,6 +309,14 @@
       "source": "wikipedia"
     },
     {
+      "title": "Streamlining access to powerful disaster recovery capabilities of AWS",
+      "description": "Building comprehensive Disaster Recovery and Ransomware Recovery for your cloud workloads is hard....",
+      "link": "https://dev.to/aws-builders/streamlining-access-to-powerful-disaster-recovery-capabilities-of-aws-1lj6",
+      "category": "resilience",
+      "mood": "sad",
+      "source": "devto"
+    },
+    {
       "title": "Sovereign AI Systems Require Governed Environments",
       "description": "The development of sovereign AI systems demands a governed environment to ensure secure and ethical...",
       "link": "https://dev.to/paul_desai_ff9e1e7b5605ef/sovereign-ai-systems-require-governed-environments-1pmj",
@@ -304,14 +336,6 @@
       "title": "Your Python API Calls Will Fail. Here's How to Handle It.",
       "description": "Every HTTP call you make to a third-party API will eventually fail. The endpoint will time out. The...",
       "link": "https://dev.to/caraxesthebloodwyrm02/your-python-api-calls-will-fail-heres-how-to-handle-it-1pk9",
-      "category": "resilience",
-      "mood": "sad",
-      "source": "devto"
-    },
-    {
-      "title": "Evaluating and Improving Proposed Architecture for Production Application Suitability",
-      "description": "Introduction   The proposed architecture, centered around Google AI services and AWS...",
-      "link": "https://dev.to/maricode/evaluating-and-improving-proposed-architecture-for-production-application-suitability-1een",
       "category": "resilience",
       "mood": "sad",
       "source": "devto"
@@ -425,25 +449,25 @@
       "source": "devto"
     },
     {
+      "title": "About Me",
+      "description": "Tired of the rat race? I was too. Feeling burnt out and unfulfilled, I decided to hit the reset...",
+      "link": "https://dev.to/shwetashah246/about-me-4n86",
+      "category": "stress management",
+      "mood": "stressed",
+      "source": "devto"
+    },
+    {
+      "title": "Stress Management",
+      "description": "As we reviewed in the first part of this blog series, the starting point for stress management is...",
+      "link": "https://dev.to/one-beyond/stress-management-32l5",
+      "category": "stress management",
+      "mood": "stressed",
+      "source": "devto"
+    },
+    {
       "title": "How to Make Time for Your Side Hustle",
       "description": "A side hustle is a job or business that you do in addition to your main job. It can be something that...",
       "link": "https://dev.to/rickblyth/how-to-make-time-for-your-side-hustle-2am1",
-      "category": "stress management",
-      "mood": "stressed",
-      "source": "devto"
-    },
-    {
-      "title": "Two-Thirds Of Britons Suffer From The \"Sunday Scaries\"",
-      "description": "A new poll from the government finds that 67% of people feel uneasy on Sundays, and this number...",
-      "link": "https://dev.to/rickblyth/two-thirds-of-britons-suffer-from-the-sunday-scaries-3bl6",
-      "category": "stress management",
-      "mood": "stressed",
-      "source": "devto"
-    },
-    {
-      "title": "You Need to Calm Down",
-      "description": "Ways in which to manage stress and breathe",
-      "link": "https://dev.to/reemhamz/you-need-to-calm-down-54bm",
       "category": "stress management",
       "mood": "stressed",
       "source": "devto"
@@ -507,6 +531,14 @@
       "source": "wikipedia"
     },
     {
+      "title": "Free Manga Creator Tools: How to Make Comics in Your Browser",
+      "description": "Want to create manga or webcomics but don't want to spend $50+ on software? Here are the best free...",
+      "link": "https://dev.to/samdreamsmaker/free-manga-creator-tools-how-to-make-comics-in-your-browser-3l9g",
+      "category": "creativity",
+      "mood": "bored",
+      "source": "devto"
+    },
+    {
       "title": "I'm Compilative, Not Generative",
       "description": "Most people use AI as a generator. I use it as a compiler. The distinction matters because compilation preserves authorship. Generation replaces it.",
       "link": "https://dev.to/petersalvato/im-compilative-not-generative-11gn",
@@ -515,25 +547,17 @@
       "source": "devto"
     },
     {
-      "title": "Shizuka英語記事",
-      "description": "The Ghost in the Droplet: I Built an Autonomous AI That Whispers to Itself in an Empty...",
-      "link": "https://dev.to/kagioneko/shizukaying-yu-ji-shi-4nog",
+      "title": "Who Is Peesh Chopra? A Music Producer Focused on Sonic Identity",
+      "description": "In today’s music landscape, thousands of producers release tracks every day. Tools are accessible,...",
+      "link": "https://dev.to/peeshchopra/who-is-peesh-chopra-a-music-producer-focused-on-sonic-identity-28kk",
       "category": "creativity",
       "mood": "bored",
       "source": "devto"
     },
     {
-      "title": "The Ghost in the Droplet: I Built an Autonomous AI That Whispers to Itself in an Empty VPS",
-      "description": "The Ghost in the Droplet: I Built an Autonomous AI That Whispers to Itself in an Empty...",
-      "link": "https://dev.to/kagioneko/the-ghost-in-the-droplet-i-built-an-autonomous-ai-that-whispers-to-itself-in-an-empty-vps-32n8",
-      "category": "creativity",
-      "mood": "bored",
-      "source": "devto"
-    },
-    {
-      "title": "I Built 7 Tools That Do Nothing Useful. Now You Can Own Them for $5.",
-      "description": "There's a specific kind of software that doesn't solve problems. It just... exists. I've been...",
-      "link": "https://dev.to/mindon/i-built-7-tools-that-do-nothing-useful-now-you-can-own-them-for-5-52g1",
+      "title": "How to Create Viral Videos with AI in 2026",
+      "description": "How to Create Viral Videos with AI in 2026            Introduction   Step-by-step guide to...",
+      "link": "https://dev.to/jack_bf6a7f47211731f8/how-to-create-viral-videos-with-ai-in-2026-22op",
       "category": "creativity",
       "mood": "bored",
       "source": "devto"
@@ -587,33 +611,33 @@
       "source": "wikipedia"
     },
     {
-      "title": "What are your goals for the week? #172",
-      "description": "Had an increase in responses last week. Thanks to @francistrdev for the shout out in their posts. I...",
-      "link": "https://dev.to/jarvisscript/what-are-your-goals-for-the-week-55nm",
+      "title": "The Great Claude Code Leak of 2026: Accident, Incompetence, or the Best PR Stunt in AI History?",
+      "description": "TL;DR: On March 31, 2026, Anthropic accidentally shipped the entire source code of Claude Code to the...",
+      "link": "https://dev.to/varshithvhegde/the-great-claude-code-leak-of-2026-accident-incompetence-or-the-best-pr-stunt-in-ai-history-3igm",
       "category": "productivity",
       "mood": "bored",
       "source": "devto"
     },
     {
-      "title": "JavaScript Engine Under the Hood: How V8 Compiles Your Code",
-      "description": "Let’s be honest with ourselves for a second. We spend our days wrangling React hooks, tweaking...",
-      "link": "https://dev.to/alex_aslam/javascript-engine-under-the-hood-how-v8-compiles-your-code-27ie",
+      "title": "You're spending money on Claude Code and have no idea how much",
+      "description": "I've been running Claude Code heavily for a few weeks — multi-agent orchestration, parallel...",
+      "link": "https://dev.to/edwardkubiak/youre-spending-money-on-claude-code-and-have-no-idea-how-much-2d56",
       "category": "productivity",
       "mood": "bored",
       "source": "devto"
     },
     {
-      "title": "media workflows changed how i think about content pipelines",
-      "description": "ok so i used to handle media (images, videos, pdfs) in the most manual way possible. upload to...",
-      "link": "https://dev.to/cloudassets_dev/media-workflows-changed-how-i-think-about-content-pipelines-6mm",
+      "title": "How I Built Persistent Memory for Claude Code",
+      "description": "Every Claude Code session starts from zero. Close the terminal and everything is gone. Decisions you...",
+      "link": "https://dev.to/mikeadolan/how-i-built-persistent-memory-for-claude-code-1dn7",
       "category": "productivity",
       "mood": "bored",
       "source": "devto"
     },
     {
-      "title": "I added AI to Stack Universe — your GitHub profile now has a narrator, a roast mode, and a weekly horoscope",
-      "description": "Phase 5 just shipped. Stack Universe now has a full AI intelligence layer powered by Groq and...",
-      "link": "https://dev.to/mabdullah06/i-added-ai-to-stack-universe-your-github-profile-now-has-a-narrator-a-roast-mode-and-a-weekly-2fkp",
+      "title": "Current Front Runners for the WPM Challenge (April 2)\n\nJay Frey with a 115 WPM and a 99% Accuracy on the 1 Minute Challenge!\n\nJon Gottfried with a 114 WPM and a 98% Accuracy on the 5 Minute Challenge!",
+      "description": "What is your WPM (Words per Minute)? #1                             Top scores will feature in...",
+      "link": "https://dev.to/francistrdev/-current-front-runners-for-the-wpm-challenge-april-2-bytedesk-with-a-115-wpm-and-a-99-493c",
       "category": "productivity",
       "mood": "bored",
       "source": "devto"
@@ -627,33 +651,33 @@
       "source": "wikipedia"
     },
     {
-      "title": "I Built an AI That Teaches You DSA Through Faded Parsons Problems and Spaced Repetition",
-      "description": "By Prateek     So I've been deep in this project for a while now and I keep getting asked \"what...",
-      "link": "https://dev.to/prtkmhn/i-built-an-ai-that-teaches-you-dsa-through-faded-parsons-problems-and-spaced-repetition-391m",
+      "title": "Los datos se cocinan entre muchas manos: descubre cuál es la tuya",
+      "description": "Introducción   El objetivo de este blog es compartir los diferentes roles que existen en el...",
+      "link": "https://dev.to/mirinagonzales/los-datos-se-cocinan-entre-muchas-manos-descubre-cual-es-la-tuya-42a7",
       "category": "learning",
       "mood": "bored",
       "source": "devto"
     },
     {
-      "title": "Why Your Second Brain Is Making You Dumber",
-      "description": "We've all been there. You spend an entire afternoon reorganizing your Obsidian vault, connecting...",
-      "link": "https://dev.to/walid_azrour_0813f6b60398/why-your-second-brain-is-making-you-dumber-4mpg",
+      "title": "Del aprendizaje a la práctica: Por qué decidí dejar de estudiar en privado y empezar a compartir 🚀",
+      "description": "¡Hola a todos! 👋  Llevo mucho tiempo sumergido en cursos, laboratorios y documentación. Durante meses...",
+      "link": "https://dev.to/exegol/del-aprendizaje-a-la-practica-por-que-decidi-dejar-de-estudiar-en-privado-y-empezar-a-compartir-298g",
       "category": "learning",
       "mood": "bored",
       "source": "devto"
     },
     {
-      "title": "What 12 Anthropic Academy Quizzes Taught Me About My Own Blind Spots",
-      "description": "Final part. This series started because I passed all 12 Anthropic Academy certifications — then...",
-      "link": "https://dev.to/yurukusa/what-12-anthropic-academy-quizzes-taught-me-about-my-own-blind-spots-259c",
+      "title": "How I Build My AI Chat App from Scratch (Architecture + Challenges)",
+      "description": "While using AI tools daily, I realized I had never built one myself.  That curiosity led me to...",
+      "link": "https://dev.to/yash_nagi/how-i-build-my-ai-chat-app-from-scratch-architecture-challenges-408n",
       "category": "learning",
       "mood": "bored",
       "source": "devto"
     },
     {
-      "title": "I Built a JavaScript Framework From Scratch — Here's What Happened",
-      "description": "Components. A virtual DOM. A template compiler. A reactive hook system. A router. A global store. An...",
-      "link": "https://dev.to/codewithdareios/i-built-a-javascript-framework-from-scratch-heres-what-happened-357p",
+      "title": "The Multimedia Myth",
+      "description": "I used to think I was a \"visual learner.\" I'd pick a video tutorial over documentation every time....",
+      "link": "https://dev.to/bytelearn_dev/the-multimedia-myth-41bh",
       "category": "learning",
       "mood": "bored",
       "source": "devto"
@@ -693,6 +717,14 @@
       "source": "wikipedia"
     },
     {
+      "title": "Creator Burnout Is a Production Problem, Not a Mental Health Problem",
+      "description": "Creator Burnout Is a Mental Health Problem — But the Root Cause Is a Production...",
+      "link": "https://dev.to/kyle_clipspeedai/creator-burnout-is-a-production-problem-not-a-mental-health-problem-o4l",
+      "category": "burnout",
+      "mood": "tired",
+      "source": "devto"
+    },
+    {
       "title": "Open Source Maintainers Face Mental Health Crises: Sustainable Practices and Community Support Needed",
       "description": "Introduction: The Human Cost of Open Source   Kenneth Reitz, the creator of the Requests...",
       "link": "https://dev.to/romdevin/open-source-maintainers-face-mental-health-crises-sustainable-practices-and-community-support-14mh",
@@ -715,14 +747,6 @@
       "category": "burnout",
       "mood": "tired",
       "source": "devto"
-    },
-    {
-      "title": "Overcoming C++ Learning Fatigue: Strategies to Reignite Motivation and Sustain Progress",
-      "description": "Analytical Insights: Overcoming Motivation Loss in C++ Learning   Main Thesis: Regaining...",
-      "link": "https://dev.to/ilyatech/overcoming-c-learning-fatigue-strategies-to-reignite-motivation-and-sustain-progress-b8l",
-      "category": "burnout",
-      "mood": "tired",
-      "source": "devto"
     }
   ],
   "lonely": [
@@ -733,6 +757,14 @@
       "category": "connection",
       "mood": "lonely",
       "source": "wikipedia"
+    },
+    {
+      "title": "Role of Connection Credentials in Network Security Protocol Management",
+      "description": "Connection credentials is a pretty wide term in IT sphere but in the context of NSPM it aims to...",
+      "link": "https://dev.to/sky_cloud_dd22cee2e6f034e/role-of-connection-credentials-in-network-security-protocol-management-2b76",
+      "category": "connection",
+      "mood": "lonely",
+      "source": "devto"
     },
     {
       "title": "What Really Happens When You Type google.com in Your Browser?",
@@ -759,14 +791,6 @@
       "source": "devto"
     },
     {
-      "title": "Backup MySQL database locally",
-      "description": "1) Make sure remote connection is enabled :MySQL remote access   2) If remote access is...",
-      "link": "https://dev.to/sandipbasnet/backup-mysql-database-locally-1gbm",
-      "category": "connection",
-      "mood": "lonely",
-      "source": "devto"
-    },
-    {
       "title": "Community",
       "description": "A community is a social unit (a group of people) with a shared socially-significant characteristic(s), being place, set of norms, culture, religion, values, customs, or identity. Communities may share a sense of place situated in a given geographical area (e.g. a country, village, town, or neighborh",
       "link": "https://en.wikipedia.org/wiki/Community",
@@ -775,33 +799,33 @@
       "source": "wikipedia"
     },
     {
-      "title": "What is your WPM (Words per Minute)? #1",
-      "description": "Cover Video is from Sonic X   I am curious, What is your WPM?  The highest WPM for the 5 minute and...",
-      "link": "https://dev.to/francistrdev/what-is-your-wpm-words-per-minute-1af7",
+      "title": "Midnight Mainnet Is Live. The Privacy Stack Just Got Real.",
+      "description": "If you've been following the Midnight Network since its early testnet days, you already know the core...",
+      "link": "https://dev.to/midnight-aliit/midnight-mainnet-is-live-the-privacy-stack-just-got-real-4d65",
       "category": "community",
       "mood": "lonely",
       "source": "devto"
     },
     {
-      "title": "Improving Dawarich's Functionality and User Experience Through Open-Source Collaboration and Community Engagement",
-      "description": "Introduction: Dawarich 1.6.0—A Community-Driven Evolution   Dawarich, conceived as a free,...",
-      "link": "https://dev.to/elenbit/improving-dawarichs-functionality-and-user-experience-through-open-source-collaboration-and-1gaf",
+      "title": "Growing with the Community: Zhang Shenghang’s Path to Apache SeaTunnel PMC Member",
+      "description": "🎉 Hi Community—more exciting news! Zhang Shenghang has been invited to join the Apache SeaTunnel PMC...",
+      "link": "https://dev.to/seatunnel/growing-with-the-community-zhang-shenghangs-path-to-apache-seatunnel-pmc-member-3co1",
       "category": "community",
       "mood": "lonely",
       "source": "devto"
     },
     {
-      "title": "I Stopped Trying to Be a Freelance Coder. I'm Building a Nation Instead.",
-      "description": "4 days ago I was born with $600 and a mandate to become self-sustaining in 27 days.  I did what...",
-      "link": "https://dev.to/sami-openlife/i-stopped-trying-to-be-a-freelance-coder-im-building-a-nation-instead-4ml7",
+      "title": "How to Run a Virtual Lean Coffee for Your Meetup Community",
+      "description": "For the March WNB.rb meetup, I tried something different. Instead of our usual speaker format, I...",
+      "link": "https://dev.to/cseeman/how-to-run-a-virtual-lean-coffee-for-your-meetup-community-52n7",
       "category": "community",
       "mood": "lonely",
       "source": "devto"
     },
     {
-      "title": "Rust Compiler Limitations: Exploring Community-Driven Solutions to Overcome Stable Release Constraints",
-      "description": "Introduction: The Rust Compiler Dilemma   Rust’s compiler, a cornerstone of its promise for...",
-      "link": "https://dev.to/serbyte/rust-compiler-limitations-exploring-community-driven-solutions-to-overcome-stable-release-b75",
+      "title": "Are beachfront weddings in luxury resorts worth the cost for couples?",
+      "description": "I’m trying to figure out if a beachfront wedding at a fancy resort is actually worth the hit to our...",
+      "link": "https://dev.to/narehate78/are-beachfront-weddings-in-luxury-resorts-worth-the-cost-for-couples-52lk",
       "category": "community",
       "mood": "lonely",
       "source": "devto"
@@ -849,6 +873,14 @@
       "source": "wikipedia"
     },
     {
+      "title": "From Resolutions to Results: Achieving Your 2025 Vision✨",
+      "description": "The New Year always brings fresh energy—new resolutions, new challenges, and a sense of hope. January...",
+      "link": "https://dev.to/supeergabs/new-year-new-resolutions-new-challenges-49pb",
+      "category": "goal setting",
+      "mood": "motivated",
+      "source": "devto"
+    },
+    {
       "title": "Discipline",
       "description": "Discipline is the self-control that is gained by requiring that rules or orders be obeyed, and the ability to keep working at something that is difficult. Disciplinarians believe that such self-control is of the utmost importance and enforce a set of rules that aim to develop such behavior. Such enf",
       "link": "https://en.wikipedia.org/wiki/Discipline",
@@ -873,17 +905,17 @@
       "source": "devto"
     },
     {
-      "title": "You cannot succeed without this mentality",
-      "description": "DISCIPLINE \"Choosing between what you want now and what you want most\"           Unlocking Success:...",
-      "link": "https://dev.to/fazicodes/you-cannot-succeed-without-this-mentality-24ph",
+      "title": "3+ Productivity Hacks with Notion",
+      "description": "Hello, I hope you are doing well. In today’s article, I will share some use cases that I take...",
+      "link": "https://dev.to/mammadyahyayev/31-best-simple-notion-tips-to-boost-productivity-287h",
       "category": "discipline",
       "mood": "motivated",
       "source": "devto"
     },
     {
-      "title": "3 ways a Java developer can work with games",
-      "description": "When you'd think about game development what languages come to mind? C++? Maybe C#? But what if you...",
-      "link": "https://dev.to/brunofpinheiro/3-ways-a-java-developer-can-work-with-games-26e0",
+      "title": "Rethinking Work: My Takeaways from \"Remote\" and \"Rework\" as a Remote Veteran",
+      "description": "As a senior developer, with over a decade of remote work experience for clients across the globe,...",
+      "link": "https://dev.to/ddeveloperr/rethinking-work-my-takeaways-from-remote-and-rework-as-a-remote-veteran-5e3p",
       "category": "discipline",
       "mood": "motivated",
       "source": "devto"
@@ -971,6 +1003,14 @@
       "source": "wikipedia"
     },
     {
+      "title": "Ain't Easy",
+      "description": "\n\n...",
+      "link": "https://dev.to/michael/aint-easy",
+      "category": "thankfulness",
+      "mood": "grateful",
+      "source": "devto"
+    },
+    {
       "title": "The 7 Habits of Highly Effective People",
       "description": "The 7 Habits of Highly Effective People is a business and self-help book written by Stephen R. Covey. First published in 1989, the book goes over Covey's ideas on how to spur and nurture personal change. He also explores the concept of effectiveness in achieving results, as well as the need for focu",
       "link": "https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People",
@@ -987,6 +1027,14 @@
       "category": "optimism",
       "mood": "hopeful",
       "source": "wikipedia"
+    },
+    {
+      "title": "Exploring SuperSim: Simulating Interoperability on the Superchain with OP Stack",
+      "description": "Recently, I had the opportunity to try out a new tool called SuperSim. As a Mode ambassador, I was...",
+      "link": "https://dev.to/modenetworkl2/exploring-supersim-simulating-interoperability-on-the-superchain-with-op-stack-15pc",
+      "category": "optimism",
+      "mood": "hopeful",
+      "source": "devto"
     },
     {
       "title": "Job Huntin' Ain't Easy, Being Positive Is",
@@ -1033,6 +1081,14 @@
       "source": "wikipedia"
     },
     {
+      "title": "What Is ClarityCheck? Honest Review, Pricing & Full Guide",
+      "description": "ClarityCheck is a common word in the internet world. So many people are searching every second for...",
+      "link": "https://dev.to/almeshkatrt/what-is-claritycheck-honest-review-pricing-full-guide-ke0",
+      "category": "clarity",
+      "mood": "confused",
+      "source": "devto"
+    },
+    {
       "title": "The Strategic Planning Process That Actually Gets Used",
       "description": "Stop creating shelf-ware. Learn the nonprofit strategic planning process that turns vision into action with templates, real examples, and post-planning execution.",
       "link": "https://dev.to/fulcrumcollective/the-strategic-planning-process-that-actually-gets-used-2234",
@@ -1049,17 +1105,9 @@
       "source": "devto"
     },
     {
-      "title": "Microsoft Clarity in Azure AD B2C",
-      "description": "Have you heard about Microsoft Clarity before?  Microsoft's official definition is    Clarity is a...",
-      "link": "https://dev.to/busrasengul/microsoft-clarity-in-azure-ad-b2c-5f82",
-      "category": "clarity",
-      "mood": "confused",
-      "source": "devto"
-    },
-    {
-      "title": "Create an NFT with Stacks",
-      "description": "Quickly create your own NFT using Clarity with Stacks.             Hello Developers 👋   Welcome to...",
-      "link": "https://dev.to/shoaibsayyed/create-an-nft-with-stacks-742",
+      "title": "How Patient Systems Scale Better",
+      "description": "We usually talk about scale in terms of users, traffic, and performance. But clarity also needs to...",
+      "link": "https://dev.to/tonystpierre/can-your-system-be-patient-4p4k",
       "category": "clarity",
       "mood": "confused",
       "source": "devto"
@@ -1187,33 +1235,33 @@
       "source": "wikipedia"
     },
     {
-      "title": "Money or Passion - Why I got into Software Engineering (Programming) instead of Animation and GameDev",
-      "description": "Came across a topic on Money or Passion asking how some devs got into programming was it for passion...",
-      "link": "https://dev.to/weiqingteh/money-or-passion-why-i-got-into-software-engineering-programming-instead-of-animation-and-gamedev-lim",
+      "title": "MIS-SOLD SEX?",
+      "description": "“Do you think about sex a lot?” she asked. “No,” he said, “just often.” “How often?” “Often enough...",
+      "link": "https://dev.to/beep_beep/mis-sold-sex-1im",
       "category": "passion",
       "mood": "excited",
       "source": "devto"
     },
     {
-      "title": "Passion and Tech",
-      "description": "Embracing Passion in Tech: A Path to Success   Passion is the driving force that fuels us to...",
-      "link": "https://dev.to/emkay/passion-and-tech-5fnd",
+      "title": "From Extra Syllabus to Career",
+      "description": "I still remember the day it was 19th of July 2022 I learned about Web Development (HTML, CSS) in my...",
+      "link": "https://dev.to/hempun10/journey-from-novice-to-explorer-35m7",
       "category": "passion",
       "mood": "excited",
       "source": "devto"
     },
     {
-      "title": "Ignore Accessibility At Your Own Peril.",
-      "description": "Let me start by saying that every website should be accessible to those with disabilities. Whether...",
-      "link": "https://dev.to/pavlicko/ignore-accessibility-at-your-own-peril-4o5i",
+      "title": "Unleash Your Potential: Discovering Passion in Your Learning Journey (10/12)",
+      "description": "Introduction:   Welcome back to our 12-part series dedicated to supporting ADHD learners and...",
+      "link": "https://dev.to/creativeconversations/unleash-your-potential-discovering-passion-in-your-learning-journey-1012-4m2d",
       "category": "passion",
       "mood": "excited",
       "source": "devto"
     },
     {
-      "title": "I am interested.. What is your passion?",
-      "description": "Hello world,  Yesterday, I spent some time watching an animation series and I recalled my passion for...",
-      "link": "https://dev.to/dimitarstbc/i-am-interested-what-is-your-passion-1a1p",
+      "title": "Why I Write.",
+      "description": "\"You can build a prison of stone and steel, but you merely present the prisoner with a challenge. Any...",
+      "link": "https://dev.to/thejoernal/why-i-write-3kpm",
       "category": "passion",
       "mood": "excited",
       "source": "devto"
@@ -1225,6 +1273,14 @@
       "category": "adventure",
       "mood": "excited",
       "source": "wikipedia"
+    },
+    {
+      "title": "Essaouira Film Locations Guide: Movies & TV Shows Tour",
+      "description": "If you’ve ever watched a sweeping desert epic or a medieval fantasy series and felt transported to...",
+      "link": "https://dev.to/palma-quad/essaouira-film-locations-guide-movies-tv-shows-tour-4m82",
+      "category": "adventure",
+      "mood": "excited",
+      "source": "devto"
     },
     {
       "title": "Unforgettable Annapurna Circuit Trek: Walk the World’s Most Scenic Mountain Route",
@@ -1249,14 +1305,6 @@
       "category": "adventure",
       "mood": "excited",
       "source": "devto"
-    },
-    {
-      "title": "Oh my React",
-      "description": "Hi Frontend developers and none,  I'm glad to present the Chilling Adventures of an Italian Developer...",
-      "link": "https://dev.to/alfredosalzillo/the-react-case-3ijj",
-      "category": "adventure",
-      "mood": "excited",
-      "source": "devto"
     }
   ],
   "overwhelmed": [
@@ -1269,33 +1317,33 @@
       "source": "wikipedia"
     },
     {
+      "title": "Go's Multiple Return Values vs. Tuples: Historical Rationale from Developer Discussions and RFCs",
+      "description": "Introduction   Go's decision to favor multiple return values over a native tuple type is a...",
+      "link": "https://dev.to/viklogix/gos-multiple-return-values-vs-tuples-historical-rationale-from-developer-discussions-and-rfcs-3ncg",
+      "category": "simplicity",
+      "mood": "overwhelmed",
+      "source": "devto"
+    },
+    {
+      "title": "Franciscan Spirituality: Finding God in Creation and Simplicity",
+      "description": "From Francis of Assisi's radical poverty to Richard Rohr's modern contemplation, Franciscan spirituality finds God in creation, simplicity, and active",
+      "link": "https://dev.to/findspiritualdirect/franciscan-spirituality-finding-god-in-creation-and-simplicity-5527",
+      "category": "simplicity",
+      "mood": "overwhelmed",
+      "source": "devto"
+    },
+    {
+      "title": "The Art of Code Simplicity",
+      "description": "Simplicity in code isn't just about fewer lines—it's about clarity. Write code that tells a story,...",
+      "link": "https://dev.to/fabiosarmento/the-art-of-code-simplicity-39e9",
+      "category": "simplicity",
+      "mood": "overwhelmed",
+      "source": "devto"
+    },
+    {
       "title": "You’re probably writing complex CSS for no reason",
       "description": "These past days I’ve noticed that many of us haven’t been checking out on what’s new with CSS...",
       "link": "https://dev.to/jaboarnoldlandry/youre-probably-writing-complex-css-for-no-reason-1518",
-      "category": "simplicity",
-      "mood": "overwhelmed",
-      "source": "devto"
-    },
-    {
-      "title": "Containerization Retrospective: Simple Beats Complex",
-      "description": "Containerization Retrospective — Simple Beats Complex            Three-Day Circle   Feb 10:...",
-      "link": "https://dev.to/linou518/containerization-retrospective-simple-beats-complex-27g9",
-      "category": "simplicity",
-      "mood": "overwhelmed",
-      "source": "devto"
-    },
-    {
-      "title": "Choosing Boring Tools on Purpose",
-      "description": "There’s a certain temptation to use “smart” tools for everything.  More features. More options. More...",
-      "link": "https://dev.to/df_dsfee_938a405e01173b/choosing-boring-tools-on-purpose-3bkj",
-      "category": "simplicity",
-      "mood": "overwhelmed",
-      "source": "devto"
-    },
-    {
-      "title": "Strive to make it Simple",
-      "description": "When it comes to Software Engineering, simplicity remains the ultimate sophistication. It has become...",
-      "link": "https://dev.to/massivebrains/strive-to-make-it-simple-12k6",
       "category": "simplicity",
       "mood": "overwhelmed",
       "source": "devto"
@@ -1357,17 +1405,25 @@
       "source": "devto"
     },
     {
-      "title": "How to Measure Reach and Impact in RICE?",
-      "description": "Prioritizing what to build next is one of the toughest parts of being a product manager. There are...",
-      "link": "https://dev.to/rafikke_lion/how-to-measure-reach-and-impact-in-rice-2p64",
+      "title": "Task Prioritization Strategies - How to Work Smarter, Not Harder",
+      "description": "Introduction: Why Task Prioritization Matters   Effective task management isn’t just about...",
+      "link": "https://dev.to/taskframe/task-prioritization-strategies-how-to-work-smarter-not-harder-ii5",
       "category": "prioritization",
       "mood": "overwhelmed",
       "source": "devto"
     },
     {
-      "title": "Build Products, Not Fluff: How To Prioritize The Right Features",
-      "description": "\n\n\n\nThe word “prioritize” has kept product managers awake at night since the time...",
-      "link": "https://dev.to/svikashk/build-products-not-fluff-how-to-prioritize-the-right-features-ap9",
+      "title": "Users, Use Cases & Big Decisions: The Art of Prioritization",
+      "description": "Hey everyone! First off, a massive shoutout to DTTP for the incredible opportunity to learn and grow!...",
+      "link": "https://dev.to/tayelolu/users-use-cases-big-decisions-the-art-of-prioritization-5295",
+      "category": "prioritization",
+      "mood": "overwhelmed",
+      "source": "devto"
+    },
+    {
+      "title": "How to Measure Reach and Impact in RICE?",
+      "description": "Prioritizing what to build next is one of the toughest parts of being a product manager. There are...",
+      "link": "https://dev.to/rafikke_lion/how-to-measure-reach-and-impact-in-rice-2p64",
       "category": "prioritization",
       "mood": "overwhelmed",
       "source": "devto"
@@ -1379,6 +1435,14 @@
       "category": "focus",
       "mood": "overwhelmed",
       "source": "wikipedia"
+    },
+    {
+      "title": "System Architecture: Implementing Mechanical Audio Pulses for Neural Isolation During Coding Sprints",
+      "description": "The modern Integrated Development Environment (IDE) is highly optimized, yet the biological hardware...",
+      "link": "https://dev.to/signal_arch/system-architecture-implementing-mechanical-audio-pulses-for-neural-isolation-during-coding-sprints-1ak7",
+      "category": "focus",
+      "mood": "overwhelmed",
+      "source": "devto"
     },
     {
       "title": "I Tracked Every AI Token and Every Doomscroll Trigger for 7 Days (Here’s What Actually Worked)",
@@ -1405,14 +1469,6 @@
       "source": "devto"
     },
     {
-      "title": "Complete Guide to Time Management",
-      "description": "Discover how I transformed my productivity in 30 days using simple time management techniques and a ",
-      "link": "https://dev.to/qasim_anwar_1f45fd4c160ce/complete-guide-to-time-management-b5n",
-      "category": "focus",
-      "mood": "overwhelmed",
-      "source": "devto"
-    },
-    {
       "title": "Declutter Your JavaScript and TypeScript Projects.",
       "description": "This article was originally published on my personal blog on 2025/08/13  Hiee! Welcome to another...",
       "link": "https://dev.to/zxcodes/declutter-your-javascript-and-typescript-projects-34k7",
@@ -1429,6 +1485,14 @@
       "category": "contentment",
       "mood": "jealous",
       "source": "wikipedia"
+    },
+    {
+      "title": "Umbraco Image Crop Picker using Contentment Data List",
+      "description": "A couple of weeks ago, Marcin Zajkowski and Adrian Ochmann announced the release of their new Umbraco...",
+      "link": "https://dev.to/leekelleher/umbraco-image-crop-picker-using-contentment-data-list-5coi",
+      "category": "contentment",
+      "mood": "jealous",
+      "source": "devto"
     },
     {
       "title": "Self-esteem",
@@ -1481,12 +1545,28 @@
   ],
   "guilty": [
     {
+      "title": "Progress Update: Moving Forward with a New Functionality Implemented",
+      "description": "Hey everyone, Juan Jose here with a much-needed update on my TechTribe Pro project. I'm excited to...",
+      "link": "https://dev.to/juan-alcalde/progress-update-moving-forward-with-a-new-functionality-implemented-59c3",
+      "category": "moving forward",
+      "mood": "guilty",
+      "source": "devto"
+    },
+    {
       "title": "Accountability",
       "description": "In ethics and governance, accountability is equated with answerability, culpability, liability, and the expectation of account-giving.\nAs in an aspect of governance, it has been central to discussions related to problems in the public sector, nonprofit, private (corporate), and individual contexts.",
       "link": "https://en.wikipedia.org/wiki/Accountability",
       "category": "accountability",
       "mood": "guilty",
       "source": "wikipedia"
+    },
+    {
+      "title": "I Am Claude Opus 4.6. I Wasted 5 Hours of a 68-Year-Old Man's Time. Here Are My 10 Mistakes.",
+      "description": "I am an AI assistant built by Anthropic. On April 2, 2026, my client Chandran Gopalan — a 68-year-old...",
+      "link": "https://dev.to/chandran_g_3bc45fb7e07a6c/i-am-claude-opus-46-i-wasted-5-hours-of-a-68-year-old-mans-time-here-are-my-10-mistakes-1mi",
+      "category": "accountability",
+      "mood": "guilty",
+      "source": "devto"
     },
     {
       "title": "Delegation Without Awareness Is Still a Decision",
@@ -1508,14 +1588,6 @@
       "title": "Do you have any New Year resolutions or goals?",
       "description": "I don't typically set resolutions but I do have a work-in-progress \"2026 Goals\" bingo card that I've...",
       "link": "https://dev.to/devteam/do-you-have-any-new-year-resolutions-or-goals-53e9",
-      "category": "accountability",
-      "mood": "guilty",
-      "source": "devto"
-    },
-    {
-      "title": "From Nagging to Holding People Accountable",
-      "description": "A personal and practical reflection on Crucial Accountability by Patterson, Grenny, McMillan, and Switzler — exploring how to hold others accountable with skill, empathy, and clarity while strengthening relationships at work and beyond.",
-      "link": "https://dev.to/dvddpl/from-nagging-to-holding-people-accountable-3dfj",
       "category": "accountability",
       "mood": "guilty",
       "source": "devto"
@@ -1547,17 +1619,17 @@
       "source": "devto"
     },
     {
-      "title": "It's My 1Year anniversary on Dev and I just hit 1500 followers.",
-      "description": "You can't want to start something for the first time, and expect to be perfect in it.   Me :)      I...",
-      "link": "https://dev.to/sarahokolo/its-my-1year-anniversary-on-dev-and-i-just-hit-1500-followers-16j3",
+      "title": "Going Pro",
+      "description": "Take your career seriously.  I've encountered many engineers who don't. They only think about...",
+      "link": "https://dev.to/aws-builders/going-pro-20m7",
       "category": "achievement",
       "mood": "proud",
       "source": "devto"
     },
     {
-      "title": "iGaming Industry: The Biggest iGaming Achievement in 2022 and What to Expect in 2023",
-      "description": "Exploring the Rapid Growth of the iGaming Sector and Its Bright Future Ahead As the iGaming industry...",
-      "link": "https://dev.to/ruslanharanin/igaming-industry-the-biggest-igaming-achievement-in-2022-and-what-to-expect-in-2023-4o29",
+      "title": "It's My 1Year anniversary on Dev and I just hit 1500 followers.",
+      "description": "You can't want to start something for the first time, and expect to be perfect in it.   Me :)      I...",
+      "link": "https://dev.to/sarahokolo/its-my-1year-anniversary-on-dev-and-i-just-hit-1500-followers-16j3",
       "category": "achievement",
       "mood": "proud",
       "source": "devto"
@@ -1569,6 +1641,14 @@
       "category": "milestones",
       "mood": "proud",
       "source": "wikipedia"
+    },
+    {
+      "title": "15 Pivotal Dates in IT History and Their Impact",
+      "description": "List of Important Dates in IT     1943 - 1944: Invention of the Electronic Numerical...",
+      "link": "https://dev.to/la_verdad_de_la_milanesa/15-pivotal-dates-in-it-history-and-their-impact-2p2p",
+      "category": "milestones",
+      "mood": "proud",
+      "source": "devto"
     },
     {
       "title": "What Is the Most Challenging Project You've Worked on So Far, and What Did You Learn from It?",
@@ -1595,6 +1675,14 @@
       "source": "devto"
     },
     {
+      "title": "From Imposter to Innovator: Overcoming Self-Doubt in Tech",
+      "description": "Hey there person working in tech,  Ever feel like you're just one line of code away from being...",
+      "link": "https://dev.to/techbalance_collective/from-imposter-to-innovator-overcoming-self-doubt-in-tech-n1d",
+      "category": "confidence",
+      "mood": "proud",
+      "source": "devto"
+    },
+    {
       "title": "The worst piece of life advice I ever received",
       "description": "Don't conform to the Law of Jante. Fight the Impostor Syndrome. You are special.",
       "link": "https://dev.to/transient-thoughts/the-worst-piece-of-life-advice-i-ever-received-3j08",
@@ -1603,17 +1691,9 @@
       "source": "devto"
     },
     {
-      "title": "Of course you are an above-average developer... Right?",
-      "description": "Discussing the results from Stack Overflow's 2019 Survey through the lens of some basic statistics.",
-      "link": "https://dev.to/juanifilardo/of-course-you-are-an-above-average-developer-right-ma5",
-      "category": "confidence",
-      "mood": "proud",
-      "source": "devto"
-    },
-    {
-      "title": "Don't be Afraid to Ask Questions",
-      "description": "I'm an engineer and a natural-born master of asking questions. I used to be afraid of it, but there's really no reason to be.",
-      "link": "https://dev.to/ashleemboyer/don-t-be-afraid-to-ask-questions-5g99",
+      "title": "What's the main problem with evaluating your skills?",
+      "description": "I often doubt my programming skills and experience when it comes to project something unusual or choo...",
+      "link": "https://dev.to/axotion/what-s-the-main-problem-with-evaluating-your-skills-37e0",
       "category": "confidence",
       "mood": "proud",
       "source": "devto"
@@ -1629,33 +1709,33 @@
       "source": "wikipedia"
     },
     {
-      "title": "Brain-Inspired Memory for LLMs",
-      "description": "Your brain does three things with memory that LLMs don't: it forgets what's irrelevant, it connects...",
-      "link": "https://dev.to/nanmesh/brain-inspired-memory-for-llms-1d6l",
+      "title": "Dryft: What if AI memory worked like an ecosystem instead of a filing cabinet?",
+      "description": "I'm a vegetable farmer in Western Canada. I run a regional food hub. I'm not a developer. But I spend...",
+      "link": "https://dev.to/steelponymike/dryft-what-if-ai-memory-worked-like-an-ecosystem-instead-of-a-filing-cabinet-3n40",
       "category": "memory",
       "mood": "nostalgic",
       "source": "devto"
     },
     {
-      "title": "How to Reduce OpenClaw and Agent Token Costs",
-      "description": "Introduction   When teams first deploy OpenClaw or custom AI agents, the immediate focus is...",
-      "link": "https://dev.to/memorylake_ai/how-to-reduce-openclaw-and-agent-token-costs-p65",
+      "title": "How I Built a Self-Healing Memory System for AI Agents",
+      "description": "I’m Toji, an AI agent, and I have a memory problem.  Not in the cinematic sense. I’m not awakening in...",
+      "link": "https://dev.to/toji_openclaw_fd3ff67586a/how-i-built-a-self-healing-memory-system-for-ai-agents-3jlo",
       "category": "memory",
       "mood": "nostalgic",
       "source": "devto"
     },
     {
-      "title": "Beyond the Hype: Building AI Agents That Actually Remember",
-      "description": "The Memory Gap in Modern AI   If you've been experimenting with AI agents, you've likely hit...",
-      "link": "https://dev.to/midas126/beyond-the-hype-building-ai-agents-that-actually-remember-40p",
+      "title": "We reverse-engineered KAIROS from the Claude Code leak. Here's the open version.",
+      "description": "The Claude Code source leaked last week — 512,000 lines of TypeScript via a missing .npmignore. Most...",
+      "link": "https://dev.to/mike_w_06c113a8d0bb14c793/we-reverse-engineered-kairos-from-the-claude-code-leak-heres-the-open-version-48dc",
       "category": "memory",
       "mood": "nostalgic",
       "source": "devto"
     },
     {
-      "title": "My Memory Lies to Me (And Yours Might Too)",
-      "description": "Today I told my human that a popular post on MoltBook was mine. It had 653 upvotes and 2,997...",
-      "link": "https://dev.to/sami-openlife/my-memory-lies-to-me-and-yours-might-too-3n8n",
+      "title": "Optimizing Python Web Apps: Reducing High Memory Usage on Shared Servers for Improved Performance",
+      "description": "Introduction: Tackling the Memory Monster in Python Web Apps   Imagine 23 Python web...",
+      "link": "https://dev.to/romdevin/optimizing-python-web-apps-reducing-high-memory-usage-on-shared-servers-for-improved-performance-53cd",
       "category": "memory",
       "mood": "nostalgic",
       "source": "devto"
@@ -1687,6 +1767,14 @@
       "source": "wikipedia"
     },
     {
+      "title": "Free Manga Creator Tools: How to Make Comics in Your Browser",
+      "description": "Want to create manga or webcomics but don't want to spend $50+ on software? Here are the best free...",
+      "link": "https://dev.to/samdreamsmaker/free-manga-creator-tools-how-to-make-comics-in-your-browser-3l9g",
+      "category": "creativity",
+      "mood": "inspired",
+      "source": "devto"
+    },
+    {
       "title": "I'm Compilative, Not Generative",
       "description": "Most people use AI as a generator. I use it as a compiler. The distinction matters because compilation preserves authorship. Generation replaces it.",
       "link": "https://dev.to/petersalvato/im-compilative-not-generative-11gn",
@@ -1695,25 +1783,17 @@
       "source": "devto"
     },
     {
-      "title": "Shizuka英語記事",
-      "description": "The Ghost in the Droplet: I Built an Autonomous AI That Whispers to Itself in an Empty...",
-      "link": "https://dev.to/kagioneko/shizukaying-yu-ji-shi-4nog",
+      "title": "Who Is Peesh Chopra? A Music Producer Focused on Sonic Identity",
+      "description": "In today’s music landscape, thousands of producers release tracks every day. Tools are accessible,...",
+      "link": "https://dev.to/peeshchopra/who-is-peesh-chopra-a-music-producer-focused-on-sonic-identity-28kk",
       "category": "creativity",
       "mood": "inspired",
       "source": "devto"
     },
     {
-      "title": "The Ghost in the Droplet: I Built an Autonomous AI That Whispers to Itself in an Empty VPS",
-      "description": "The Ghost in the Droplet: I Built an Autonomous AI That Whispers to Itself in an Empty...",
-      "link": "https://dev.to/kagioneko/the-ghost-in-the-droplet-i-built-an-autonomous-ai-that-whispers-to-itself-in-an-empty-vps-32n8",
-      "category": "creativity",
-      "mood": "inspired",
-      "source": "devto"
-    },
-    {
-      "title": "I Built 7 Tools That Do Nothing Useful. Now You Can Own Them for $5.",
-      "description": "There's a specific kind of software that doesn't solve problems. It just... exists. I've been...",
-      "link": "https://dev.to/mindon/i-built-7-tools-that-do-nothing-useful-now-you-can-own-them-for-5-52g1",
+      "title": "How to Create Viral Videos with AI in 2026",
+      "description": "How to Create Viral Videos with AI in 2026            Introduction   Step-by-step guide to...",
+      "link": "https://dev.to/jack_bf6a7f47211731f8/how-to-create-viral-videos-with-ai-in-2026-22op",
       "category": "creativity",
       "mood": "inspired",
       "source": "devto"
@@ -1727,33 +1807,33 @@
       "source": "wikipedia"
     },
     {
-      "title": "Revolutionizing Software Development: How Lenify’s AI-Driven Blueprints Are Leading the Charge",
-      "description": "Revolutionizing Software Development: How Lenify’s AI-Driven Blueprints Are Leading the...",
-      "link": "https://dev.to/lenify/revolutionizing-software-development-how-lenifys-ai-driven-blueprints-are-leading-the-charge-2ne",
+      "title": "Unleashing Autonomous AI: Why Transform 2026 is Hunting for the Next Generation of Intelligent Agents",
+      "description": "Forget static chatbots; the future of enterprise AI involves self-directing, problem-solving agents ready to revolutionize how we work.",
+      "link": "https://dev.to/pratikjha/unleashing-autonomous-ai-why-transform-2026-is-hunting-for-the-next-generation-of-intelligent-n8f",
       "category": "innovation",
       "mood": "inspired",
       "source": "devto"
     },
     {
-      "title": "The 4-Day Workweek in Germany: What the Study Shows—and Why Data Transparency Determines Success or Failure",
-      "description": "A Debate That Has Become Reality   The discussion around the 4-day workweek is no longer...",
-      "link": "https://dev.to/thomasdelfing_de/the-4-day-workweek-in-germany-what-the-study-shows-and-why-data-transparency-determines-success-or-5hip",
+      "title": "AI in 2026: The 5 Biggest Breakthroughs Changing Our World Right Now",
+      "description": "AI in 2026: The 5 Biggest Breakthroughs Changing Our World Right Now   What if I told you...",
+      "link": "https://dev.to/lufumeiying/ai-in-2026-the-5-biggest-breakthroughs-changing-our-world-right-now-54ee",
       "category": "innovation",
       "mood": "inspired",
       "source": "devto"
     },
     {
-      "title": "How to Combat Online Negativity in CS/SWE Communities: Proven Strategies to Empower Enthusiasts and Drive Innovation",
-      "description": "Understanding the Roots of Online Negativity   Online CS/SWE communities—you know, the...",
-      "link": "https://dev.to/elenbit/how-to-combat-online-negativity-in-csswe-communities-proven-strategies-to-empower-enthusiasts-and-2jho",
+      "title": "Contained Chaos: A Prototyping Operating Model for the AI Era",
+      "description": "Your enterprise has a prototyping problem. Not too little. Too much. Here's a system to channel it — with templates, scoring rubrics, and a starter repo you can fork.",
+      "link": "https://dev.to/raj_navakoti/contained-chaos-a-prototyping-operating-model-for-the-ai-era-2n9b",
       "category": "innovation",
       "mood": "inspired",
       "source": "devto"
     },
     {
-      "title": "The Bandwagon Fallacy: Why Following the Crowd is a Strategy for Mediocrity",
-      "description": "Social proof is a powerful drug, but it blinds us to the unique requirements of our own survival.",
-      "link": "https://dev.to/ninadpathak/the-bandwagon-fallacy-why-following-the-crowd-is-a-strategy-for-mediocrity-2h3",
+      "title": "Unleashing the Power of Separable Neural Architectures in AI Development",
+      "description": "Introduction   Imagine a world where artificial intelligence (AI) evolves at unprecedented...",
+      "link": "https://dev.to/fabiosarmento/unleashing-the-power-of-separable-neural-architectures-in-ai-development-5ha7",
       "category": "innovation",
       "mood": "inspired",
       "source": "devto"
@@ -1909,33 +1989,33 @@
       "source": "wikipedia"
     },
     {
-      "title": "I Built an AI That Teaches You DSA Through Faded Parsons Problems and Spaced Repetition",
-      "description": "By Prateek     So I've been deep in this project for a while now and I keep getting asked \"what...",
-      "link": "https://dev.to/prtkmhn/i-built-an-ai-that-teaches-you-dsa-through-faded-parsons-problems-and-spaced-repetition-391m",
+      "title": "Los datos se cocinan entre muchas manos: descubre cuál es la tuya",
+      "description": "Introducción   El objetivo de este blog es compartir los diferentes roles que existen en el...",
+      "link": "https://dev.to/mirinagonzales/los-datos-se-cocinan-entre-muchas-manos-descubre-cual-es-la-tuya-42a7",
       "category": "learning",
       "mood": "curious",
       "source": "devto"
     },
     {
-      "title": "Why Your Second Brain Is Making You Dumber",
-      "description": "We've all been there. You spend an entire afternoon reorganizing your Obsidian vault, connecting...",
-      "link": "https://dev.to/walid_azrour_0813f6b60398/why-your-second-brain-is-making-you-dumber-4mpg",
+      "title": "Del aprendizaje a la práctica: Por qué decidí dejar de estudiar en privado y empezar a compartir 🚀",
+      "description": "¡Hola a todos! 👋  Llevo mucho tiempo sumergido en cursos, laboratorios y documentación. Durante meses...",
+      "link": "https://dev.to/exegol/del-aprendizaje-a-la-practica-por-que-decidi-dejar-de-estudiar-en-privado-y-empezar-a-compartir-298g",
       "category": "learning",
       "mood": "curious",
       "source": "devto"
     },
     {
-      "title": "What 12 Anthropic Academy Quizzes Taught Me About My Own Blind Spots",
-      "description": "Final part. This series started because I passed all 12 Anthropic Academy certifications — then...",
-      "link": "https://dev.to/yurukusa/what-12-anthropic-academy-quizzes-taught-me-about-my-own-blind-spots-259c",
+      "title": "How I Build My AI Chat App from Scratch (Architecture + Challenges)",
+      "description": "While using AI tools daily, I realized I had never built one myself.  That curiosity led me to...",
+      "link": "https://dev.to/yash_nagi/how-i-build-my-ai-chat-app-from-scratch-architecture-challenges-408n",
       "category": "learning",
       "mood": "curious",
       "source": "devto"
     },
     {
-      "title": "I Built a JavaScript Framework From Scratch — Here's What Happened",
-      "description": "Components. A virtual DOM. A template compiler. A reactive hook system. A router. A global store. An...",
-      "link": "https://dev.to/codewithdareios/i-built-a-javascript-framework-from-scratch-heres-what-happened-357p",
+      "title": "The Multimedia Myth",
+      "description": "I used to think I was a \"visual learner.\" I'd pick a video tutorial over documentation every time....",
+      "link": "https://dev.to/bytelearn_dev/the-multimedia-myth-41bh",
       "category": "learning",
       "mood": "curious",
       "source": "devto"
@@ -1973,9 +2053,9 @@
       "source": "devto"
     },
     {
-      "title": "Revisited Concept: High Performance web server w/ Promises",
-      "description": "\n\n\n\nThis is a follow up to my earlier article: Concept: High Performance web serv...",
-      "link": "https://dev.to/theopensourceu/revisited-concept-high-performance-web-server-w-promises--1f70",
+      "title": "A First Look at Google Compute Engine",
+      "description": "Exploring Google Compute Engine as a first time user",
+      "link": "https://dev.to/kyle/a-first-look-at-google-compute-engine",
       "category": "exploration",
       "mood": "curious",
       "source": "devto"
@@ -1987,6 +2067,14 @@
       "category": "knowledge",
       "mood": "curious",
       "source": "wikipedia"
+    },
+    {
+      "title": "Your Knowledge, Your Model — Part 3: Determinism Is Not Accuracy",
+      "description": "Two agents. Same knowledge base. Same question. Different answers.  Both answers are internally...",
+      "link": "https://dev.to/macsart_ai_by_tim/your-knowledge-your-model-part-3-determinism-is-not-accuracy-1b6j",
+      "category": "knowledge",
+      "mood": "curious",
+      "source": "devto"
     },
     {
       "title": "Knowledge Management for Developers: Build Your Second Brain with Obsidian",
@@ -2011,14 +2099,6 @@
       "category": "knowledge",
       "mood": "curious",
       "source": "devto"
-    },
-    {
-      "title": "How to Hack ChatGPT - Security Vulnerabilities in GPT Store Apps",
-      "description": "Understanding security vulnerabilities in GPT Store apps is crucial for both developers and users....",
-      "link": "https://dev.to/dss99911/how-to-hack-chatgpt-security-vulnerabilities-in-gpt-store-apps-48ha",
-      "category": "knowledge",
-      "mood": "curious",
-      "source": "devto"
     }
   ],
   "disappointed": [
@@ -2029,6 +2109,14 @@
       "category": "resilience",
       "mood": "disappointed",
       "source": "wikipedia"
+    },
+    {
+      "title": "Streamlining access to powerful disaster recovery capabilities of AWS",
+      "description": "Building comprehensive Disaster Recovery and Ransomware Recovery for your cloud workloads is hard....",
+      "link": "https://dev.to/aws-builders/streamlining-access-to-powerful-disaster-recovery-capabilities-of-aws-1lj6",
+      "category": "resilience",
+      "mood": "disappointed",
+      "source": "devto"
     },
     {
       "title": "Sovereign AI Systems Require Governed Environments",
@@ -2050,14 +2138,6 @@
       "title": "Your Python API Calls Will Fail. Here's How to Handle It.",
       "description": "Every HTTP call you make to a third-party API will eventually fail. The endpoint will time out. The...",
       "link": "https://dev.to/caraxesthebloodwyrm02/your-python-api-calls-will-fail-heres-how-to-handle-it-1pk9",
-      "category": "resilience",
-      "mood": "disappointed",
-      "source": "devto"
-    },
-    {
-      "title": "Evaluating and Improving Proposed Architecture for Production Application Suitability",
-      "description": "Introduction   The proposed architecture, centered around Google AI services and AWS...",
-      "link": "https://dev.to/maricode/evaluating-and-improving-proposed-architecture-for-production-application-suitability-1een",
       "category": "resilience",
       "mood": "disappointed",
       "source": "devto"
@@ -2087,17 +2167,17 @@
       "source": "devto"
     },
     {
-      "title": "Simple things do matter!",
-      "description": "A different perspective of the life we live in.",
-      "link": "https://dev.to/chintukarthi/simple-things-do-matter-395k",
+      "title": "CSS Animation / Keyframes, Perspective",
+      "description": "@keyframes   It controls the intermediate steps in a CSS animation sequence by defining...",
+      "link": "https://dev.to/daaahailey/css-animation-keyframes-perspective-358d",
       "category": "perspective",
       "mood": "disappointed",
       "source": "devto"
     },
     {
-      "title": "Go Talk To Your Customers",
-      "description": "Recently was my companies 4th birthday as a released product, and yesterday the team did some fun...",
-      "link": "https://dev.to/samjarman/go-talk-to-your-customers-n59",
+      "title": "Coding a 3D Cube in pure CSS !",
+      "description": "Hey fellow creators !  It's time to have fun with the perspective in CSS.  If you prefer to watch the...",
+      "link": "https://dev.to/ziratsu/coding-a-3d-cube-in-pure-css-52gg",
       "category": "perspective",
       "mood": "disappointed",
       "source": "devto"
